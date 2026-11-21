@@ -1,4 +1,4 @@
-name: "tumpe20"
+name: "daftar"
 
 on:
   workflow_dispatch:
@@ -32,7 +32,7 @@ jobs:
       matrix:
 
         target:
-          - '28b'
+          - 'daftar'
 
     steps:
 
