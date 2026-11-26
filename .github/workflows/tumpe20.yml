@@ -1,4 +1,4 @@
-name: "daftar"
+name: "utama"
 
 on:
   workflow_dispatch:
@@ -32,7 +32,7 @@ jobs:
       matrix:
 
         target:
-          - 'daftar'
+          - 'utama'
 
     steps:
 
